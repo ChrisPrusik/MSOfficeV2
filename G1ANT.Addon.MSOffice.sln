@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.MSOffice", "G1ANT.Addon.MSOffice\G1ANT.Addon.MSOffice.csproj", "{0CAC2B89-A3F0-4EA3-95C5-8FB7474CED17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.MSOffice", "G1ANT.Addon.MSOffice\G1ANT.Addon.MSOffice.csproj", "{E2E36395-6AE4-42EB-8FD7-9A7C9B7C37B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.MSOffice.Tests", "G1ANT.Addon.MSOffice.Tests\G1ANT.Addon.MSOffice.Tests.csproj", "{BAFB3E9D-4BDD-4D7D-9237-435F7F32882A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalDlls", "ExternalDlls", "{6F67F5DF-3514-4267-886C-60B6E238BA04}"
+	ProjectSection(SolutionItems) = preProject
+		..\G1ANT.Addon-Git\G1ANT.Addon.MSOffice\ExternalDlls\Microsoft.mshtml.dll = ..\G1ANT.Addon-Git\G1ANT.Addon.MSOffice\ExternalDlls\Microsoft.mshtml.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0CAC2B89-A3F0-4EA3-95C5-8FB7474CED17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CAC2B89-A3F0-4EA3-95C5-8FB7474CED17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CAC2B89-A3F0-4EA3-95C5-8FB7474CED17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CAC2B89-A3F0-4EA3-95C5-8FB7474CED17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E36395-6AE4-42EB-8FD7-9A7C9B7C37B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E36395-6AE4-42EB-8FD7-9A7C9B7C37B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E36395-6AE4-42EB-8FD7-9A7C9B7C37B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E36395-6AE4-42EB-8FD7-9A7C9B7C37B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFB3E9D-4BDD-4D7D-9237-435F7F32882A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFB3E9D-4BDD-4D7D-9237-435F7F32882A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFB3E9D-4BDD-4D7D-9237-435F7F32882A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFB3E9D-4BDD-4D7D-9237-435F7F32882A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
