@@ -24,7 +24,7 @@ Command `excel.runmacro` allows to run macro in currently active excel program.
 For more information about `if`, `timeout`, `errorjump` and `errormessage` arguments, please visit [Common Arguments](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Common-Arguments.md)  manual page.
 
 This command is contained in **G1ANT.Addon.MSOffice.dll**.
-See: "https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice":https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
+See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 **Example 1:**
 
