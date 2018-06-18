@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.replace  from ‴‴  to ‴‴
-
 ```
 
 **Description:**
@@ -34,9 +33,8 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 word.open path ‴C:\test\Random.docx‴ result ♥wordHandleTest
 word.inserttext text ♥toInsert replacealltext true
 word.replace from ‴Saving‴ to ‴Killing‴ matchcase false wholewords true
-
 ```
 
 The example above shows how to open word document, insert text to it and replace a word in the text. We firstly create a variable ♥toInsert where we store the text that we want to insert later. Then we open word using `word.open` command. `word.replace` allows us to change the word "saving" to "killing".
 
-!{IMAGE-LINK+2017-11-17-word-replace}!
+

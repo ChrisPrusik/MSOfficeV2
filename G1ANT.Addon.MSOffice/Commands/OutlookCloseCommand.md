@@ -4,7 +4,6 @@
 
 ```G1ANT
 outlook.close
-
 ```
 
 **Description:**
@@ -28,5 +27,4 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 outlook.close
-
 ```

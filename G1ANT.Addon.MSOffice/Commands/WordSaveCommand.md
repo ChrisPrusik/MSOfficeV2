@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.save  path ‴‴ 
-
 ```
 
 **Description:**
@@ -30,7 +29,6 @@ This example saves currently active Word document to ‴C:\Documents\myfile\doc1
 
 ```G1ANT
 word.save path ‴C:\Documents\myfile\doc1.docx‴
-
 ```
 
 **Example 2:**
@@ -39,7 +37,6 @@ This example saves currently active Word document to ‴C:\Documents\doc1.docx�
 
 ```G1ANT
 word.save path ‴doc3.docx‴
-
 ```
 
 **Example 3:**
@@ -51,5 +48,4 @@ This example shows how to insert text into a blank word document and save it cho
 word.open
 word.inserttext text ♥toInsert replacealltext true
 word.save path ‴C:\Tests\test.docx‴
-
 ```

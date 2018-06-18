@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.inserttext  text ‴‴
-
 ```
 
 **Description:**
@@ -33,10 +32,9 @@ In this example we are assigning text to a variable and then inserting it to the
 ♥toInsert = ‴I hate yogurt. It's just stuff with bits in. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? Saving the world with meals on wheels. I'm the Doctor, I'm worse than everyone's aunt. **catches himself** And that is not how I'm introducing myself.‴
 word.open path ‴C:\Users\diana\Desktop\Cokolwiek.docx‴ result ♥wordHandleTest
 word.inserttext text ♥toInsert replacealltext true
-
 ```
 
-!{IMAGE-LINK+2017-11-17-word-inserttext}! 
+ 
 
 **Example 2:**
 
@@ -45,5 +43,4 @@ The text that we insert does not need to be assigned to a variable, we can simpl
 ```G1ANT
 word.open
 word.inserttext text ‴I am blah today...‴ replacealltext true
-
 ```

@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.activatesheet  name ‴‴ 
-
 ```
 
 
@@ -31,10 +30,9 @@ In this example there is a change of active switch - instead of the previously a
 
 ```G1ANT
 excel.activatesheet name ‴books1‴
-
 ```
 
-!{IMAGE-LINK+excel-actsheet}! 
+ 
 
 **Example 2:**
 
@@ -47,5 +45,4 @@ excel.setvalue value ‴new Sheet‴ row 1 colindex 1
 excel.addsheet name ‴Another Sheet‴
 excel.setvalue value ‴132‴ row 1 colname ‴A‴
 excel.activatesheet name ‴New Sheet‴
-
 ```

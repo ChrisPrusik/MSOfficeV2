@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.open
-
 ```
 
 **Description:**
@@ -33,10 +32,9 @@ Here document.xlsx is being open with activated sheet_number_223 and the result 
 
 ```G1ANT
 excel.open path ‴C:\programs\document.xlsx‴ sheet ‴sheet_number_223‴ result ♥excelId1 
-
 ```
 
-!{IMAGE-LINK+excel-open}! 
+ 
 
 **Example 2:**
 
@@ -44,7 +42,6 @@ Below you can see how easy it is to open a new Excel file:
 
 ```G1ANT
 excel.open
-
 ```
 
 **Example 3:**
@@ -56,7 +53,6 @@ excel.open inbackground true
 excel.setvalue value ‴Random Text‴ row 1 colname A
 excel.save path ‴C:\Tests\test.xlsx‴
 excel.close 
-
 ```
 
 **Example 4:**
@@ -65,5 +61,4 @@ In this example you can create Sheet2 while opening Excel.
 
 ```G1ANT
 excel.open path ‴C:\Tests\test.xlsx‴ sheet Sheet2
-
 ```

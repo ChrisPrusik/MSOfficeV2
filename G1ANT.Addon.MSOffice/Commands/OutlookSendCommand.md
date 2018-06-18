@@ -4,7 +4,6 @@
 
 ```G1ANT
 outlook.send 
-
 ```
 
 **Description:**
@@ -31,5 +30,4 @@ outlook.open
 outlook.newmessage to ‴test`g1ant.com‴ subject ‴example email‴  body ‴example‴
 outlook.send
 outlook.close
-
 ```

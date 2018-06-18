@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.getrow  row ‴‴
-
 ```
 
 **Description:**
@@ -34,5 +33,4 @@ keyboard ‴THE wild bee reels from bough to bough ⋘DOWN⋙With his furry coat
 keyboard ⋘ENTER⋙
 excel.getrow row ‴3‴ result ♥rowInput
 dialog ♥rowInput
-
 ```

@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.switch  id ‴‴  
-
 ```
 
 **Description:**
@@ -28,12 +27,11 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 excel.switch id 1
-
 ```
 
 In this example the Excel window no. 1 is activated.
 
-!{IMAGE-LINK+excel-switch}! 
+ 
 
 **Example 2:**
 
@@ -43,7 +41,6 @@ In order to use ID argument for `excel.switch` command, you first need to set an
 excel.open inbackground true result ♥excel1
 excel.open path ‴C:\Users\diana\Desktop\test.xlsx‴ result ♥excel2
 excel.switch id ♥excel1 
-
 ```
 
 **Example 3:**
@@ -57,14 +54,13 @@ excel.open result ♥res4
 dialog ‴♥res1 ♥res2 ♥res3 ♥res4‴
 excel.switch id 0
 excel.setvalue value ‴excel 1‴ row 2 colindex 1 
-
 ```
 
 
 Let's look at the script above; we are opening Excel instance and saving it in `result ♥res1` to be able to refer to it later. Using `excel.setvalue` command, we can insert 'excel 1' text inside of first row in the first column. Next, we are opening another Excel instances. While using `dialog` command, we can see that the results stored in variables are numbers of opened instances, every time Excel activates a new instance, the number of it is incremented by 1. It starts with number 0. That is why while using `dialog` command, id '0' was assigned to ♥res1.
 
-!{IMAGE-LINK+2018-01-09-excel-setvalue1}! 
+ 
 
 While switching to the Excel instance with **id 0**, G1ANT.Robot opens the first Excel instance from our script.
 
-!{IMAGE-LINK+2018-01-09-excel-setvalue2}!
+

@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.gettext
-
 ```
 
 **Description:**
@@ -32,7 +31,6 @@ Opens a file from a path, copies all text from a file and stores it in `♥mytex
 word.open path ‴C:\Users\user1\Documents\test.docx‴
  word.gettext result ♥mytext
  dialog ♥mytext
-
 ```
 
 **Example 2:**
@@ -48,7 +46,6 @@ word.close
 word.open path ‴C:\test\test.docx‴ timeout 10000
 word.gettext result ♥copiedText
 dialog ♥copiedText
-
 ```
 
-!{IMAGE-LINK+2018-01-16-word-gettext}!
+

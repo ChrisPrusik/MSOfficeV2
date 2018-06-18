@@ -4,14 +4,12 @@
 
 ```G1ANT
 excel.getformula  row ‴‴ colindex ‴‴
-
 ```
 
 or 
 
 ```G1ANT
 excel.getformula  row ‴‴ colname ‴‴
-
 ```
 
 **Description:**
@@ -38,7 +36,6 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 ```G1ANT
 excel.getformula row 11 colindex 3
 dialog  ♥result
-
 ```
 
 **Example 2:**
@@ -46,12 +43,11 @@ dialog  ♥result
 ```G1ANT
 excel.getformula row 11 colname ‴3‴ result ♥var1
 dialog  ♥var1
-
 ```
 
 In this example formula used in the specified cell is shown in a dialog.
 
-!{IMAGE-LINK+excel-getformula}! 
+ 
 
 **Example 3:**
 
@@ -60,5 +56,4 @@ excel.open path ‴C:\Tests\test.xlsx‴
 excel.activatesheet name ‴Sheet3‴
 excel.getformula row 1 colname ‴A‴ result ♥formula
 dialog ♥formula
-
 ```

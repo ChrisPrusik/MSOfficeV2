@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.duplicaterow  source ‴‴ destination ‴‴
-
 ```
 
 **Description:**
@@ -29,7 +28,6 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 excel.duplicaterow source 2 destination 5
-
 ```
 
 **Example 2:**
@@ -39,9 +37,8 @@ excel.open path ‴C:\Tests\excelTest.xlsx‴ result ♥excelHandle1
 excel.duplicaterow source 3 destination 4
 excel.save path ‴C:\Tests\excelTest.xlsx‴
 excel.close
-
 ```
 
-!{IMAGE-LINK+2017-11-21-excel-duplicaterow}! 
+ 
 
 In this case `excel.duplicaterow` will overwrite the 4th row with the value from 3rd row.

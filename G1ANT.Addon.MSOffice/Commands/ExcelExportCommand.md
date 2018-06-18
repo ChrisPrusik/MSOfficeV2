@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.export path ‴‴  
-
 ```
 
 **Description:**
@@ -30,12 +29,10 @@ In both examples below a currently active excel sheet is being exported as a .pd
 
 ```G1ANT
 excel.export path ‴C:\Documents\FileName1.pdf‴
-
 ```
 
 ```G1ANT
 excel.export path ‴FileName2.pdf‴ type ‴pdf‴
-
 ```
 
 **Example 2:**
@@ -46,5 +43,4 @@ It is very important that you type the file extension while giving the path valu
 excel.open path ‴C:\Tests\startrek.xlsx‴ result ♥excelHandle
 excel.export path ‴C:\Tests\startrek.pdf‴
 excel.close
-
 ```

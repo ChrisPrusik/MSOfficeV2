@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.switch  id ‴‴ 
-
 ```
 
 **Description:**
@@ -33,10 +32,9 @@ This example switches between opened Word windows with a `word.switch` command.
 word.open result ♥1
 word.open result ♥2
 word.switch id ♥1
-
 ```
 
-!{IMAGE-LINK+word-switch}! 
+ 
 
 In this example the Word window no 1 has been activated.
 
@@ -46,5 +44,4 @@ In this example the Word window no 1 has been activated.
 word.open result wordHandle
 word.open path ‴C:\tests\wordtest.docx‴ result ♥wordHandleTest
 word.switch id ♥wordHandle
-
 ```

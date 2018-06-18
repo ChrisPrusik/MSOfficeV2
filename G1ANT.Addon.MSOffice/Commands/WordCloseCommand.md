@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.close
-
 ```
 
 **Description:**
@@ -28,7 +27,6 @@ This example closes the Word program that is currently active using `word.close`
 
 ```G1ANT
 word.close
-
 ```
 
 **Example 2:**
@@ -36,5 +34,4 @@ word.close
 ```G1ANT
 word.open path ‴C:\tests\wordtest.docx‴ result ♥wordHandleTest
 word.close
-
 ```

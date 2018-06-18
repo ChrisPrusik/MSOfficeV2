@@ -4,7 +4,6 @@
 
 ```G1ANT
 outlook.newmessage
-
 ```
 
 **Description:**
@@ -34,7 +33,6 @@ Here an email will be drafted with all main fields completed, with no attachment
 
 ```G1ANT
 outlook.newmessage to ‴mail`g1ant.com‴ subject ‴amazing‴ body ‴it is an amazing feature‴
-
 ```
 
 **Example 2:**
@@ -43,7 +41,6 @@ Here an email will be drafted with all main fields completed and with two attach
 
 ```G1ANT
 outlook.newmessage to ‴mail`g1ant.com‴ subject ‴amazing‴ body ‴it is an amazing feature‴ attachments ‴c:\Temp\Text.txt❚c:\Temp\Text1.txt‴
-
 ```
 
 **Example 3 :**
@@ -52,7 +49,6 @@ Here an email will be drafter with all main fields completed with one attachment
 
 ```G1ANT
 outlook.newmessage to ‴mail`g1ant.com‴ subject ‴amazing‴ body ‴this is an amazing feature‴ attachments ‴c:\Temp\Text.txt‴
-
 ```
 
 **Example 4:**
@@ -61,5 +57,4 @@ outlook.newmessage to ‴mail`g1ant.com‴ subject ‴amazing‴ body ‴this is
 outlook.open
 outlook.newmessage to ‴test`g1ant.com‴ subject ‴something interesting‴ body ‴sth sth sth‴
 outlook.close
-
 ```

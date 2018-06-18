@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.removerow  row ‴‴  
-
 ```
 
 **Description:**
@@ -30,5 +29,4 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 excel.open path ‴C:\Tests\test.xlsx‴ result ♥excelHandle
 excel.removerow row 2
 excel.close
-
 ```

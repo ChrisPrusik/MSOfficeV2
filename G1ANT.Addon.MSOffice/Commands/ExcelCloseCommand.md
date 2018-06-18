@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.close
-
 ```
 
 **Description:**
@@ -27,7 +26,6 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 excel.close
-
 ```
 
 In this example the currently active Excel workbook is closed.
@@ -38,7 +36,6 @@ Example 2
 excel.open result ♥excelHandle1
 excel.open result ♥excelHandle2
 excel.close
-
 ```
 
 Note that G1ANT.Robot will close recently used instance of Excel document without asking to save changes. In order to save changes, you need to use "excel.save":{TOPIC-LINK+command-excel-save} command.

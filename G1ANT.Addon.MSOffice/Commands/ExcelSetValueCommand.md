@@ -4,14 +4,12 @@
 
 ```G1ANT
 excel.setvalue  value ‴‴  row ‴‴  colindex ‴‴ 
-
 ```
 
 or 
 
 ```G1ANT
  excel.setvalue  value ‴‴  row ‴‴  colname ‴‴ 
-
 ```
 
 **Description:**
@@ -37,17 +35,15 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 excel.setvalue value ‴someText‴ row 2 colname ‴2‴
-
 ```
 
 ```G1ANT
 excel.setvalue value ‴=A1+A5‴ row 6 colname ‴1‴
-
 ```
 
 In this example a value and a formula as defined are inserted into specified cells.
 
-!{IMAGE-LINK+excel-setval}! 
+ 
 
 **Example 2:**
 
@@ -61,16 +57,15 @@ excel.getvalue row 2 colname ‴B‴ result ♥valueColB
 excel.setvalue value ‴the best pony is shetland pony‴ row 3 colname ‴A‴ if ♥valueColB
 excel.save path ‴C:\Tests\excelTest.xlsx‴
 excel.close
-
 ```
 
 In our script, while using `row 2 colname ‴B‴ result ♥valueColB` line, we can read the content of 2B cell- it is 'TRUE'.
 
-!{IMAGE-LINK+2017-12-21-excel-setvalue}! 
+ 
 
 Then, we can check the condition and inject certain new value only if the condition is fulfilled. In our case the condition we are checking is: `if ♥valueColB`. By default it means **if ♥valueColB = 'TRUE'**. It does equal 'TRUE', so G1ANT.Robot is injecting ‴the best pony is shetland pony‴ in 3A cell.
 
-!{IMAGE-LINK+2017-12-21-excel-setvalue1}! 
+ 
 
 **Example 3:**
 
@@ -81,7 +76,6 @@ excel.open
 excel.setvalue value ‴window‴ row 1 colindex 1
 excel.getvalue row 1 colindex 1 result ♥res
 excel.setvalue value ‴something‴ row 1 colindex 2 if ⊂♥res == "window"⊃
-
 ```
 
 **Example 4:**
@@ -89,5 +83,4 @@ excel.setvalue value ‴something‴ row 1 colindex 2 if ⊂♥res == "window"�
 ```G1ANT
 excel.open
 excel.setvalue value ‴random input‴ row 1 colname ‴A‴
-
 ```

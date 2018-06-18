@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.insertrow  row ‴‴
-
 ```
 
 **Description:**
@@ -29,21 +28,18 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 excel.insertrow row 2 where below
-
 ```
 
 **Example 2:**
 
 ```G1ANT
 excel.insertrow row 1 where above
-
 ```
 
 **Example 3:**
 
 ```G1ANT
 excel.insertrow row 1
-
 ```
 
 **Example 4:**
@@ -57,7 +53,6 @@ keyboard ⋘ENTER⋙
 delay seconds 4
 excel.insertrow row 2 where below
 dialog ‴row inserted‴
-
 ```
 
 **Example 5:**
@@ -65,5 +60,4 @@ dialog ‴row inserted‴
 ```G1ANT
 excel.open path ‴C:\tests\test.xlsx‴ result ♥excel1
 excel.insertrow row 3 where before
-
 ```

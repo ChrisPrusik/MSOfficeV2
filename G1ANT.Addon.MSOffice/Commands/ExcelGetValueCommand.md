@@ -4,14 +4,12 @@
 
 ```G1ANT
 excel.getvalue  row ‴‴ colindex ‴‴
-
 ```
 
 or 
 
 ```G1ANT
 excel.getvalue  row ‴‴ coname ‴‴
-
 ```
 
 **Description:**
@@ -38,12 +36,11 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 ```G1ANT
 excel.getvalue row 11 colindex 3 result ♥var1
 dialog ♥var1
-
 ```
 
 In this example the value from specified cell is shown in a dialog box.
 
-!{IMAGE-LINK+excel-getvalue}! 
+ 
 
 **Example 2:**
 
@@ -53,7 +50,6 @@ excel.setvalue value ‴Remember, remember!‴ row 1 colname A
 excel.setvalue value ‴the fifth of November‴ row 2 colname A
 excel.getvalue row 1 colname A result ♥guy
 dialog ♥guy
-
 ```
 
 **Example 3:**
@@ -65,5 +61,4 @@ keyboard ⋘DOWN⋙
 keyboard ‴The fifth of November⋘DOWN⋙The Gunpowder treason and plot‴
 excel.getvalue row 1 colname A result ♥guy
 dialog ♥guy
-
 ```

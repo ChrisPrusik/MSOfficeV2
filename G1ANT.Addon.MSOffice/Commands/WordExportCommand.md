@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.export  path ‴‴
-
 ```
 
 **Description:**
@@ -33,14 +32,13 @@ First, open the word file using `word.open` command, then use `word.export` and 
 ```G1ANT
 word.open path ‴C:\Public\doc1.docx‴
 word.export path ‴C:\Public\doc2.pdf‴
-
 ```
 
-!{IMAGE-LINK+wordex1}! 
+ 
 
 You can see an opened Word file above.
 
-!{IMAGE-LINK+wordex2}! 
+ 
 
 Here we can see a newly created .pdf file after `word.export` command was executed.
 
@@ -54,9 +52,8 @@ word.open
 word.inserttext text ♥toInsert replacealltext true
 word.save path ‴C:\Tests\test.docx‴
 word.export path ‴C:\Tests\test.pdf‴ type ‴pdf‴
-
 ```
 
-!{IMAGE-LINK+2018-01-15-word-export}! 
+ 
 
 Please, be aware that in order to export and save files in specified locations on your computer, you need to have file and folder permissions.

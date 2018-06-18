@@ -4,7 +4,6 @@
 
 ```G1ANT
 outlook.findmails  search ‴‴
-
 ```
 
 **Description:**
@@ -30,7 +29,6 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 outlook.findmails search ‴G1ANT‴
-
 ```
 
 **Example 2:**
@@ -39,9 +37,8 @@ outlook.findmails search ‴G1ANT‴
 outlook.open
 outlook.findmails search ‴G1ANT‴ showmail false result ♥result
 dialog ♥result 
-
 ```
 
 G1ANT.Robot shows 'true' in result if finds an email containing certain word. it will show 'false' if it does not find any.
 
-!{IMAGE-LINK+2017-11-29-outlook-open}!
+

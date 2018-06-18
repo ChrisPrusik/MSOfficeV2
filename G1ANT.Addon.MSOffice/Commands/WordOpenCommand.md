@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.open  path ‴‴
-
 ```
 
 **Description:**
@@ -31,7 +30,6 @@ This example opens Word document from path ‴C:\programs\document.docx‴ using
 
 ```G1ANT
 word.open path ‴C:\programs\document.docx‴ result ♥wId1
-
 ```
 
 **Example 2:**
@@ -40,7 +38,6 @@ This example opens Word document using `word.open` command.
 
 ```G1ANT
 word.open
-
 ```
 
 **Example 3:**
@@ -48,5 +45,4 @@ word.open
 ```G1ANT
 word.open result ♥wordHandle
 word.open path ‴C:\tests\wordtest.docx‴ result ♥wordHandleTest
-
 ```

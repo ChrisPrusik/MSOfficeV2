@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.importtext path ‴‴ 
-
 ```
 
 **Description:**
@@ -36,10 +35,9 @@ In these examples data from the data.csv file is imported, copying takes place i
 ```G1ANT
 excel.importtext path ‴C:\programs\data.csv‴ destination ‴D5‴ result ♥size
 excel.importtext path ‴C:\programs\data.csv‴ destination ‴4//5‴ result ♥size
-
 ```
 
-!{IMAGE-LINK+excel-import}! 
+ 
 
 **Example 2:**
 
@@ -49,7 +47,6 @@ excel.importtext path ‴C:\Tests\import_random.csv‴ delimiter comma resultrow
 dialog ‴Rows imported: ♥importerRows; Columns imported: ♥importedColumns‴
 excel.save path ‴C:\Tests\import_test.xlsx‴
 excel.close
-
 ```
 
-!{IMAGE-LINK+2017-11-21-excel-importtext}!
+

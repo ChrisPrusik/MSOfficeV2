@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.save 
-
 ```
 
 **Description:**
@@ -30,7 +29,6 @@ In this example the currently active Excel workbook is saved as doc1.xlsx
 
 ```G1ANT
 excel.save path ‴C:\Documents\doc1.xlsx‴
-
 ```
 
 **Example 2:**
@@ -41,5 +39,4 @@ excel.setvalue value ‴random text‴ row 1 colname ‴A‴
 excel.setvalue value ‴54642 5854 22‴ row 1 colname ‴B‴
 excel.save path ‴C:\Tests\excelTest.xlsx‴
 excel.close
-
 ```

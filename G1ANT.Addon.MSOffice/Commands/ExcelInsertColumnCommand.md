@@ -4,14 +4,12 @@
 
 ```G1ANT
 excel.insertcolumn  colindex ‴‴ 
-
 ```
 
 or 
 
 ```G1ANT
 excel.insertcolumn  colname ‴‴ 
-
 ```
 
 **Description:**
@@ -41,7 +39,6 @@ excel.open
 excel.setvalue value ‴someting‴ row 1 colindex 1
 excel.setvalue value ‴someting else‴ row 1 colindex 2
 excel.insertcolumn colname A where ‴after‴
-
 ```
 
 **Example 2:**
@@ -51,5 +48,4 @@ This example opens an existing Excel instance from a path and inserts a column b
 ```G1ANT
 excel.open path ‴C:\Tests\test.xlsx‴ result ♥excelHandle
 excel.insertcolumn colname A where ‴before‴
-
 ```

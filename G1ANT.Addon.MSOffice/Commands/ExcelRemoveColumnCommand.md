@@ -4,14 +4,12 @@
 
 ```G1ANT
 excel.removecolumn colindex ‴‴ 
-
 ```
 
 or 
 
 ```G1ANT
 excel.insertcolumn  colname ‴‴  
-
 ```
 
 **Description:**
@@ -37,5 +35,4 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 excel.open path ‴C:\Tests\test.xlsx‴ result ♥excelHandle
 excel.insertcolumn colname A where after
 excel.removecolumn colname B
-
 ```

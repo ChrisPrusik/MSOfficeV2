@@ -4,7 +4,6 @@
 
 ```G1ANT
 excel.runmacro  name ‴‴ 
-
 ```
 
 **Description:**
@@ -30,18 +29,16 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.MSOffice
 
 ```G1ANT
 excel.runmacro name ‴macro1‴ args ‴1,2‴
-
 ```
 
 
 In this example a previously defined "macro1" macro is run. The first column is multiplied by argument 1 (1) and copied to column D, and then it is multiplied by argument 2 (2) and copied to column E.
 
-!{IMAGE-LINK+excel-macro}! 
+ 
 
 **Example 2:**
 
 ```G1ANT
 excel.open path ‴C:\Tests\macros.xlsm‴
 excel.runmacro name ‴multiply‴
-
 ```

@@ -4,7 +4,6 @@
 
 ```G1ANT
 word.runmacro  name ‴‴ 
-
 ```
 
 **Description:**
@@ -32,8 +31,7 @@ In the following example a previously created macro is initialised. This macro r
 ```G1ANT
 word.open
 word.runmacro name ‴Align_Right‴
-
 ```
 
-!{IMAGE-LINK+word-makro}! 
+ 
 In this example a new Word document is opened, and a previously defined macro is initialised. This macro aligns the text (and the cursor) on the right side of the page.
