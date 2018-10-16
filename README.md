@@ -1,5 +1,5 @@
 # G1ANT.Addon.MSOffice
-Added powerpoint support
+Added powerpoint support. Please note that this addon is not yet finished.
 
 You can test it by running this simple set of commands:
 
